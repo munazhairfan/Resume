@@ -10,44 +10,44 @@ body {
 
 #head {
   background-image: url(paper.jpg);
-  background-size: cover; /* Ensures background image covers the area */
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  padding: 20px; /* Adds padding for better spacing */
+  padding: 20px;
 }
 
 #profile-container {
   display: flex;
-  flex-direction: column; /* Stacks profile picture and text vertically */
-  align-items: center; /* Centers content horizontally */
+  flex-direction: column;
+  align-items: center;
 }
 
 #div1 {
   height: 180px;
   width: 180px;
-  border-radius: 50%; /* Ensures circular shape */
+  border-radius: 50%;
   background-image: url(pfp.jpg);
-  background-size: cover; /* Ensures profile image covers the area */
-  background-position: center; /* Centers the image within the circle */
-  background-repeat: no-repeat; /* Prevents image repetition */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
   border: 2px dashed white;
-  margin-bottom: 15px; /* Adds space below the profile picture */
+  margin-bottom: 15px; 
 }
 
 #div2 {
   text-align: center;
-  max-width: 600px; /* Limits width for readability */
+  max-width: 600px;
 }
 
 #R1 {
   color: rgb(207, 228, 248);
-  height: auto; /* Adjusts height based on content */
+  height: auto; 
   width: 100%;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; /* Ensures wrapping of content on smaller screens */
+  flex-wrap: wrap; 
 }
 
 h2 {
@@ -56,7 +56,7 @@ h2 {
 
 #part1, #part2 {
   width: 100%;
-  max-width: 600px; /* Limits width for readability */
+  max-width: 600px; 
   margin: 0.5rem;
 }
 
@@ -65,7 +65,7 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 1rem; /* Adds space above button */
+  margin-top: 1rem; 
 }
 
 button {
@@ -87,16 +87,16 @@ button {
 
 #R2 {
   color: rgb(207, 228, 248);
-  height: auto; /* Adjusts height based on content */
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; /* Ensures wrapping of content on smaller screens */
+  flex-wrap: wrap; 
 }
 
 #part3, #part4 {
   width: 100%;
-  max-width: 600px; /* Limits width for readability */
+  max-width: 600px; 
   margin: 0.5rem;
 }
 
@@ -106,7 +106,7 @@ button {
 
 /* Footer Styling */
 footer {
-  background-color:#b1a984; /* Changed color for footer */
+  background-color:#b1a984; 
   color: white;
   text-align: center;
   padding: 1rem;
@@ -132,7 +132,7 @@ footer a:hover {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   #profile-container {
-    flex-direction: column; /* Stacks profile picture and text vertically */
+    flex-direction: column;
     align-items: center;
   }
 }
